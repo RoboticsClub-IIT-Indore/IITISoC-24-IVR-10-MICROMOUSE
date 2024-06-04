@@ -11,4 +11,5 @@ Mentors:
 
 Members:
 - [Gulshan Choudhary](https://github.com/xingetwjojrtoj)
+- [Aarushi Singh](https://github.com/Amberss-Log)
 <br>
