@@ -34,5 +34,5 @@ Members:
    - It does not create *map* of the maze while it navigates. It simply reacts to immidiate responses from the sensors and navigates.
 
    This is the video depicting the problem faced while using a wall following algorithm:[right_wall_follower](https://drive.google.com/file/d/1flYjwpWsy6WhyAmOay1xKx8tjAGSHOHe/view?usp=drive_link)
-   
-   
+   <br>
+   The mouse simply loops back to the start as the maze is not simply connected.
