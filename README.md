@@ -28,6 +28,7 @@ Members:
    - Garunteed to solve and find the goal in *Perfect Mazes*.
   <br>
   **DISADVANTAGES**
+
    - IF the maze is not simply connected, like it has loops, dead ends or multiple solutions, the the mouse is likely to get stuck or move endlessly on loops.
    - Does not guarantee shortest path from start to finish.
    - It does not create map of the maze while it navigates. It simply reacts to immidiate responses from the sensors and navigates.
