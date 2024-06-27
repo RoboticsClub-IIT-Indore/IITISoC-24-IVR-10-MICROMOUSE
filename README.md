@@ -38,3 +38,5 @@ Members:
    This is the video depicting the problem faced while using a wall following algorithm:[right_wall_follower](https://drive.google.com/file/d/1flYjwpWsy6WhyAmOay1xKx8tjAGSHOHe/view?usp=drive_link)
    <br>
    The mouse simply loops back to the start as the maze is not simply connected.
+<br>
+[In this case](https://drive.google.com/file/d/1BO-K_sEmUj3vDzHHRxPZWSjLFI5veKmK/view?usp=drive_link) the left wall following algorithm worked.
