@@ -22,12 +22,12 @@ Members:
    ### Wall Following
    The wall following algorithm is based on simple logic of movement through the maze by either following the left hand side or the right hand side of the enclosure wall. In simple words, If the maze is simply connected(a perfect maze), then by keeping one hand in contact with one wall of the maze the solver is guaranteed not to get lost and will reach the goal.
    <br>
-   **ADVANTAGES**
+  ### **ADVANTAGES**
    - This algorithm has simple logic and is easy to understand and implement.
    - Requires minimal coding and simple sensor data.
    - Garunteed to solve and find the goal in *Perfect Mazes*.
   <br>
-  **DISADVANTAGES**
+ ### **DISADVANTAGES**
 <br>
 
    - IF the maze is *not simply connected*, like it has loops, dead ends or multiple solutions, the the mouse is likely to get stuck or move endlessly on loops.
