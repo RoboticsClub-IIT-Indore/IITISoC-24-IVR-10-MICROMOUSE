@@ -26,8 +26,9 @@ Members:
    - This algorithm has simple logic and is easy to understand and implement.
    - Requires minimal coding and simple sensor data.
    - Garunteed to solve and find the goal in *Perfect Mazes*.
-  <br>
- ### **DISADVANTAGES**
+
+  ### **DISADVANTAGES**
+ 
 <br>
 
    - IF the maze is *not simply connected*, like it has loops, dead ends or multiple solutions, the the mouse is likely to get stuck or move endlessly on loops.
