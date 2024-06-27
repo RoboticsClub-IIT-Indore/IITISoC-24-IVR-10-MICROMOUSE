@@ -39,4 +39,4 @@ Members:
    <br>
    The mouse simply loops back to the start as the maze is not simply connected.
 <br>
-[In this case](https://drive.google.com/file/d/1BO-K_sEmUj3vDzHHRxPZWSjLFI5veKmK/view?usp=drive_link) the left wall following algorithm worked.
+[In this case](https://drive.google.com/file/d/1BO-K_sEmUj3vDzHHRxPZWSjLFI5veKmK/view?usp=drive_link) the wall following algorithm worked.
