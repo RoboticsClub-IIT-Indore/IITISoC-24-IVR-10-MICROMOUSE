@@ -19,7 +19,7 @@ Members:
  - Firstly, we had to investigate and assess various maze scanning algorithms. These algorithms help navigate and find way out of the maze.These algorithms can be used to **analyze** the structure of a maze and answer questions about it.There are different algorithms suited for different scenarios.
 
    ## MAZE SCANNING ALGORITHMS
-   ### Wall Following
+   ### 1. Wall Following
    The wall following algorithm is based on simple logic of movement through the maze by either following the left hand side or the right hand side of the enclosure wall. In simple words, If the maze is simply connected(a perfect maze), then by keeping one hand in contact with one wall of the maze the solver is guaranteed not to get lost and will reach the goal.
    <br>
   ### **ADVANTAGES**
@@ -42,7 +42,7 @@ Members:
 [In this case](https://drive.google.com/file/d/1BO-K_sEmUj3vDzHHRxPZWSjLFI5veKmK/view?usp=sharing) the wall following algorithm worked.
 <br>
 <br>
-### Mix of wall follower algorithm and tremaux algorithm
+### 2. Mix of wall follower algorithm and tremaux algorithm
 Tremaux algorithm keeps a track of each path that it travels through so that it does not get stuck into a particular loop , it gives more priority to the path which is less traveled . 
 <br>
 ### **ADVANTAGES**
@@ -54,7 +54,10 @@ Tremaux algorithm keeps a track of each path that it travels through so that it 
 <br>
 This simulation video shows Treumax algorithm in action:(https://drive.google.com/file/d/1XR3U5SL-y9s6uoXrzSg8DsjEyO8DL3OW/view?usp=sharing)
 <br>
-### Floodfill Algorithm
+<br>
+
+### 3. Floodfill Algorithm
+
 <br>
 Flood Fill is popular algorithm used in Micromouse competitions to determine the shortest path through a maze. It works by simulating the filling of a maze with water from the goal point.
 The maze is represented as a 2D grid, with each cell containing information about walls and distance to the goal.The water flow starts at the goal, so algorithm assigns value of 0 to the goal. Next, iteratively, it gives neighboring accessible cells progressively greater distance values. Until each reachable cell has a distance value assigned to it, this procedure keeps going.Once the entire maze is filled with distance values, the shortest path from the start to the goal can be determined by following the cells with decreasing distance values. Whenever the mouse identifies any wall in it's path, it makes a layout of the maze and runs floodfill again to assign new distance values to each cell as per the maze layout and it continues until we reach the goal.
