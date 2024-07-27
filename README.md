@@ -52,7 +52,7 @@ Tremaux algorithm keeps a track of each path that it travels through so that it 
 ### **DISADVANTAGES**
 - It requires much more space than a wall follower algorithm since it keeps track of all paths which and  how many times they are taken.
 <br>
-This simulation video shows Treumax algorithm in action:[VIDEO](https://drive.google.com/file/d/1XR3U5SL-y9s6uoXrzSg8DsjEyO8DL3OW/view?usp=sharing)
+This simulation video shows Treumax algorithm in action: [VIDEO](https://drive.google.com/file/d/1XR3U5SL-y9s6uoXrzSg8DsjEyO8DL3OW/view?usp=sharing)
 <br>
 ### Floodfill Algorithm
 Flood Fill is popular algorithm used in Micromouse competitions to determine the shortest path through a maze. It works by simulating the filling of a maze with water from the goal point.
