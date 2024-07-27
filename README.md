@@ -59,12 +59,15 @@ This simulation video shows Treumax algorithm in action: [video](https://drive.g
 Flood Fill is popular algorithm used in Micromouse competitions to determine the shortest path through a maze. It works by simulating the filling of a maze with water from the goal point.
 The maze is represented as a 2D grid, with each cell containing information about walls and distance to the goal.The water flow starts at the goal, so algorithm assigns value of 0 to the goal. Next, iteratively, it gives neighboring accessible cells progressively greater distance values. Until each reachable cell has a distance value assigned to it, this procedure keeps going.Once the entire maze is filled with distance values, the shortest path from the start to the goal can be determined by following the cells with decreasing distance values. Whenever the mouse identifies any wall in it's path, it makes a layout of the maze and runs floodfill again to assign new distance values to each cell as per the maze layout and it continues until we reach the goal.
 <br> 
-This video shows how a floodfill algorithm works: [Floodfill_inital](https://drive.google.com/file/d/1i9GHAzxoJ6IoAXuxypmXep02S_17EAth/view?usp=drive_link)
+<br>
+This video shows how a floodfill algorithm works: [Floodfill_inital](https://drive.google.com/file/d/1i9GHAzxoJ6IoAXuxypmXep02S_17EAth/view?usp=sharing)
 Since we floodfill to be most efficient among others, we choose to continue with floodfill algorithm.
 <br>
 After the initial exploration of the maze, once complete layout of the maze is known, the algorithm finds the shortest route.
 <br>
+
 ### **ADVANTAGES**
+
 - This algorithm guarantees the shortest path from start to goal and is relatively fast.
 
 ### **DISADVANTAGES**
