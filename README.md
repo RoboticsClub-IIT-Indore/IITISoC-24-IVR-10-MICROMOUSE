@@ -66,7 +66,7 @@ The maze is represented as a 2D grid, with each cell containing information abou
 This video shows how a floodfill algorithm works:(https://drive.google.com/file/d/1i9GHAzxoJ6IoAXuxypmXep02S_17EAth/view?usp=sharing)
 <br>
 <br>
-Since we floodfill to be most efficient among others, we choose to continue with floodfill algorithm.
+Since we found floodfill to be most efficient among others, we choose to continue with floodfill algorithm.
 <br>
 <br>
 After the initial exploration of the maze, once complete layout of the maze is known, the algorithm finds the shortest route by applying floodfill over the maze having data of all wall.
