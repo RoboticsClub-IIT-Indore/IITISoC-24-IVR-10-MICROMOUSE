@@ -82,4 +82,34 @@ After the initial exploration of the maze, once complete layout of the maze is k
 
   This video shows flood fill algorithm scanning maze as well as finding shortest path from start to goal: [Floodfill_final](https://drive.google.com/file/d/1clfPy3I-suyK9Hdtrby9k95kz-t7QTri/view?usp=sharing)
   <br>
-  
+  <br>
+  ## Overview of the code
+
+  The floodfill and path finding code outlines a flood fill algorithm for navigating a maze, specifically for a micromouse robot. The API class simulates the micromouse interface functions, while the floodfill function uses the flood fill algorithm to navigate through the maze.
+
+Here's an overview of the key components and functionality:
+
+1. *API Class*: This class simulates interactions with the maze environment, including movement, turning, wall detection, and setting visual elements (like walls, colors, and text) on the maze.
+
+2. *Direction Handling*:
+   - turnRight and turnLeft update the current direction after a right or left turn, respectively.
+   - updateCoordinates adjusts the robot's coordinates based on its current direction.
+   - update combines turning and coordinate updating based on a given left/right indicator.
+
+3. *Flood Fill Algorithm*:
+   - *Initialization*: Initializes various arrays to track visited cells, wall information, and maze distances.
+   - *Wall Detection and Updating*: Uses the API functions to detect walls and updates the internal wall representation accordingly.
+   - *Flood Fill Logic*: Uses a queue to perform a breadth-first search (BFS) to calculate distances from the target cells (center of the maze).
+   - *Movement Logic*: Decides the robot's next move based on the calculated distances and current direction, aiming to minimize the distance to the target cells.
+
+4. *Main Loop*:
+   - The main loop continues until the robot reaches one of the center cells.
+   - After reaching the center, the robot turns around and continues exploring until all cells are visited, ensuring the entire maze is mapped.
+
+### Example Execution Flow
+
+1. *Start*: The robot starts at the initial position (0,0) facing west.
+2. *Flood Fill*: The algorithm calculates the distance to the nearest center cell for each cell in the maze.
+3. *Movement*: The robot moves based on the calculated distances and updates its direction and coordinates accordingly.
+4. *Wall Handling*: The robot detects walls and updates the internal representation of the maze.
+5. *Color and Text Setting*: The robot sets colors and texts on the maze cells for visualization purposes.
