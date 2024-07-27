@@ -85,9 +85,9 @@ After the initial exploration of the maze, once complete layout of the maze is k
   <br>
   ## Overview of the code
 
-  The floodfill and path finding code outlines a flood fill algorithm for navigating a maze, specifically for a micromouse robot. The API class simulates the micromouse interface functions, while the floodfill function uses the flood fill algorithm to navigate through the maze.
+  The floodfill and path finding code outlines a flood fill algorithm for navigating a maze. The API class simulates the micromouse interface functions, while the floodfill function uses the flood fill algorithm to navigate through the maze.
 
-Here's an overview of the key components and functionality:
+  The overview of the key components and functionality:
 
 1. *API Class*: This class simulates interactions with the maze environment, including movement, turning, wall detection, and setting visual elements (like walls, colors, and text) on the maze.
 
