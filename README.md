@@ -40,3 +40,11 @@ Members:
    The mouse simply loops back to the start as the maze is not simply connected.
 <br>
 [In this case](https://drive.google.com/file/d/1BO-K_sEmUj3vDzHHRxPZWSjLFI5veKmK/view?usp=drive_link) the wall following algorithm worked.
+<br>
+<br>
+### Mix of wall follower algorithm and tremaux algorithm
+Tremaux algorithm keeps a track of each path that it travels through so that it does not get stuck into a particular loop , it gives more priority to the path which is less traveled . 
+<br>
+### **ADVANTAGES**
+- It does not get stuck in an infinite loop.
+- It can be used for a variety of mazes.
