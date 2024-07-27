@@ -69,8 +69,7 @@ This video shows how a floodfill algorithm works:(https://drive.google.com/file/
 Since we floodfill to be most efficient among others, we choose to continue with floodfill algorithm.
 <br>
 <br>
-After the initial exploration of the maze, once complete layout of the maze is known, the algorithm finds the shortest route.
-<br>
+After the initial exploration of the maze, once complete layout of the maze is known, the algorithm finds the shortest route by applying floodfill over the maze having data of all wall.
 
 ### **ADVANTAGES**
 
