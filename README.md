@@ -113,3 +113,20 @@ After the initial exploration of the maze, once complete layout of the maze is k
 3. *Movement*: The robot moves based on the calculated distances and updates its direction and coordinates accordingly.
 4. *Wall Handling*: The robot detects walls and updates the internal representation of the maze.
 5. *Color and Text Setting*: The robot sets colors and texts on the maze cells for visualization purposes.
+<br>
+<br>
+## HARDWARE INSTRUCTIONS
+
+
+Device firmware is a software embedded within hardware that provides low-level control and communication with hardware components to enable device functionality.
+<br>
+For our micromouse hardware parts are Arduino nano 
+MPU6050
+N-20 micro metal gear motor
+Ultrasonic sensor.
+<br>
+Code for the same has been provided. *We were unable to write code for interfacing N20 MICRO metal gear motor and MPU6050*
+
+# **CONTRIBUTORS**
+- Gulshan Choudhary [ Mechanical Engineering,IIT INDORE]
+- Aarushi Singh [Engineering Physics,IIT INDORE]
