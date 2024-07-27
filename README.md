@@ -88,31 +88,20 @@ After the initial exploration of the maze, once complete layout of the maze is k
   The floodfill and path finding code outlines a flood fill algorithm for navigating a maze. The API class simulates the micromouse interface functions, while the floodfill function uses the flood fill algorithm to navigate through the maze.
 
   The overview of the key components and functionality:
+1. *Library*: Two extra library are there one is queue to handle data for floodfill and another is string to use an API function setText() for printing direction while verifying.
+2. *API Class*: This class simulates interactions with the maze environment, including movement, turning, wall detection, and setting visual elements (like walls, colors, and text) on the maze.
 
-1. *API Class*: This class simulates interactions with the maze environment, including movement, turning, wall detection, and setting visual elements (like walls, colors, and text) on the maze.
+3. *Direction Handling*: Updating direction after every turn and updating coordinate after every move of the micro-mouse.
 
-2. *Direction Handling*:
-   - turnRight and turnLeft update the current direction after a right or left turn, respectively.
-   - updateCoordinates adjusts the robot's coordinates based on its current direction.
-   - update combines turning and coordinate updating based on a given left/right indicator.
-
-3. *Flood Fill Algorithm*:
+4. *Flood Fill Algorithm*:
    - *Initialization*: Initializes various arrays to track visited cells, wall information, and maze distances.
-   - *Wall Detection and Updating*: Uses the API functions to detect walls and updates the internal wall representation accordingly.
-   - *Flood Fill Logic*: Uses a queue to perform a breadth-first search (BFS) to calculate distances from the target cells (center of the maze).
-   - *Movement Logic*: Decides the robot's next move based on the calculated distances and current direction, aiming to minimize the distance to the target cells.
+   - *Wall Detection and Updating*: Updates walls after every move in a array.
+   - *Flood Fill Logic*: Uses a queue to calculate distances from the target cells (center of the maze).
+   - *Movement Logic*: The mouse moves to a nearby cell having value less than it's own value and there is no wall in between them.
+5. *Main Loop*:
+   - The main loop continues until the robot reaches one of the center of the maze , keeping track of cells and marking them with green colour.
+   - After reaching the center, the robot turns around and continues exploring until all cells are visited, marking it with yellow colour.
 
-4. *Main Loop*:
-   - The main loop continues until the robot reaches one of the center cells.
-   - After reaching the center, the robot turns around and continues exploring until all cells are visited, ensuring the entire maze is mapped.
-
-### Example Execution Flow
-
-1. *Start*: The robot starts at the initial position (0,0) facing west.
-2. *Flood Fill*: The algorithm calculates the distance to the nearest center cell for each cell in the maze.
-3. *Movement*: The robot moves based on the calculated distances and updates its direction and coordinates accordingly.
-4. *Wall Handling*: The robot detects walls and updates the internal representation of the maze.
-5. *Color and Text Setting*: The robot sets colors and texts on the maze cells for visualization purposes.
 <br>
 <br>
 
