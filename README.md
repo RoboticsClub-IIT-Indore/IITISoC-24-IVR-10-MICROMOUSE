@@ -115,6 +115,8 @@ After the initial exploration of the maze, once complete layout of the maze is k
 5. *Color and Text Setting*: The robot sets colors and texts on the maze cells for visualization purposes.
 <br>
 <br>
+
+
 ## HARDWARE INSTRUCTIONS
 
 
